@@ -1,0 +1,31 @@
+# Python compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# Django files
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.swp
+*.tmp
